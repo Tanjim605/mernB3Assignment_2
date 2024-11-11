@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- my custom css link -->
     <link rel="stylesheet" href="style.css" />
 
     <!-- bootstrap css and JS cdn links below -->
@@ -62,7 +63,7 @@
 
     <!-- Hero section -->
     <div id="carouselExample" class="carousel slide">
-      <!-- bottom indicator -->
+      <!-- bottom carousel indicator -->
       <div class="carousel-indicators">
         <button
           type="button"
@@ -170,6 +171,8 @@
     <!-- Content cards container -->
     <div class="container mt-5 mb-5" id="services">
       <div class="row gap-4 justify-content-center">
+
+        <!-- single card 1 -->
         <div class="card shadow-lg" style="width: 18rem">
           <img src="./assets/aot-card.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
@@ -182,6 +185,7 @@
           </div>
         </div>
 
+        <!-- single card 2 -->
         <div class="card shadow-lg" style="width: 18rem">
           <img src="./assets/bouken-card.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
@@ -194,6 +198,7 @@
           </div>
         </div>
 
+        <!-- single card 3 -->
         <div class="card shadow-lg" style="width: 18rem">
           <img src="./assets/natsume-card.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
@@ -206,6 +211,7 @@
           </div>
         </div>
 
+        <!-- single card 4 -->
         <div class="card shadow-lg" style="width: 18rem">
           <img
             src="./assets/Kiteretsu-card.jpg"
@@ -225,12 +231,34 @@
     </div>
 
     <!-- about section -->
+    <div class="container my-5" id="about">
+      <div class="row d-md-flex flex-column flex-md-row align-content-center">
+        <div class="col-md-6">
+          <img src="./assets/anime-about.jpg" alt="" class="w-100" />
+        </div>
+        <div class="col-md-6 col-10 mx-auto my-2 my-lg-5">
+          <h2>About</h2>
+          <p>
+            Anime is a popular style of animation originating from Japan,
+            characterized by its vibrant art, imaginative worlds, and diverse
+            storytelling. Known for its unique aesthetic and expressive
+            characters, anime spans a wide range of genres, from action and
+            fantasy to romance and slice of life, making it appealing to
+            audiences of all ages. Through rich visuals and compelling plots,
+            anime often explores complex themes like friendship, courage, and
+            the struggles of everyday life, creating a global fan base and a
+            thriving cultural phenomenon that extends beyond Japan.
+          </p>
+        </div>
+      </div>
+    </div>
 
     <!-- contact form -->
-    <div class="container mx-auto py-4 bg-secondary w-100 rounded-4 mb-3" id="contact">
-      <form
-        class="mx-auto text-white w-75"
-      >
+    <div
+      class="container mx-auto py-4 bg-secondary w-100 rounded-4 mb-3"
+      id="contact"
+    >
+      <form class="mx-auto text-white w-75">
         <!-- Name input -->
         <div data-mdb-input-init class="form-outline mb-4">
           <label class="form-label" for="form5Example1">Name :</label>
@@ -262,10 +290,11 @@
 
     <!-- footer -->
     <footer class="text-center text-lg-start bg-info-subtle text-muted">
-      <!-- Section: Social media -->
+      <!--Social media -->
       <section
         class="flex-column flex-md-row d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
       >
+        <!--this will be top and bottom in mobile view instead of left-right   -->
         <!-- Left -->
         <div class="me-5 mb-3 mb-md-0 d-block">
           <span>Get connected with me on social networks:</span>
@@ -293,12 +322,13 @@
           </a>
         </div>
       </section>
+
       <!-- Copyright -->
       <div
         class="text-center p-4 text-dark"
         style="background-color: rgba(0, 0, 0, 0.05)"
       >
-        © 2021 Copyright:
+        © 2024 Copyright:
         <a class="text-dark fw-bold" href="https://tanjim605.github."
           >Kazi Tanjimul Islam</a
         >
